@@ -18,3 +18,11 @@ A more complicated Node use
   > EOF
   $ node cli.js
   hello world
+
+With inline python
+
+  >>> import json, sys
+  >>> sys.stdout.write(json.dumps({'key': 'value'}, indent=2) + '\n')
+  {
+    "key": "value"
+  }

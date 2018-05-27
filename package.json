@@ -12,6 +12,7 @@
   "author": "Andres Suarez <zertosh@gmail.com>",
   "license": "GPL-2.0",
   "files": [
+    "heredoctest.py",
     "killdaemons.py",
     "run-tests.py",
     "THIRD-PARTY-NOTICES"
